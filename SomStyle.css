@@ -6,17 +6,15 @@
   box-sizing: border-box;
 }
 
-
 body {
   font-family: 'Kanit', sans-serif;
-  background-color: #0e011c;
+  background-color: #07040f;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
-
 
 body::before {
   content: "";
@@ -29,10 +27,9 @@ body::before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.1; /* ลางแค่ไหน ปรับที่นี่  https://i.pinimg.com/1200x/bf/98/8e/bf988ee0c22cc657d29753187150d09c.jpg    */
+  opacity: 0.01; /* ลางแค่ไหน ปรับที่นี่  https://i.pinimg.com/1200x/bf/98/8e/bf988ee0c22cc657d29753187150d09c.jpg    */
   z-index: -1;
 }
-
 
 header {
   font-family: 'Kanit', sans-serif;
@@ -43,9 +40,6 @@ header {
   border-bottom: 1px solid #222;
 }
 
-
-
-
 header nav a {
   color: white;
   text-decoration: none;
@@ -55,11 +49,9 @@ header nav a {
   transition: color 0.3s;
 }
 
-
 header nav a:hover {
   color: #a41cff;
 }
-
 
 header .logo {
   font-weight: 700;
@@ -68,7 +60,6 @@ header .logo {
   color: #9500ff;
   cursor: pointer;
 }
-
 
 main {
   font-family: 'Kanit', sans-serif;
@@ -80,13 +71,9 @@ main {
   gap: 50px;
 }
 
-
-
-
 .content {
   max-width: 600px;
 }
-
 
 .content h1 {
   font-size: 48px;
@@ -96,7 +83,6 @@ main {
   font-family: 'Orbitron', sans-serif;
 }
 
-
 .content p {
   font-size: 16px;
   line-height: 1.5;
@@ -104,12 +90,10 @@ main {
   margin-bottom: 30px;
 }
 
-
 .buttons {
   display: flex;
   gap: 20px;
 }
-
 
 .btn-primary {
   font-family: 'Kanit', sans-serif;
@@ -128,14 +112,12 @@ main {
   transition: transform 0.3s ease;
 }
 
-
 .btn-primary:hover {
   transform: scale(1.08);
   background-color: #a200ff;
   max-width: 500px;
   box-shadow: 0 0 50px rgba(132, 0, 255, 0.7);
 }
-
 
 .btn-secondary {
   font-family: 'Kanit', sans-serif;
@@ -154,7 +136,6 @@ main {
   transition: transform 0.3s ease;
 }
 
-
 .btn-secondary:hover {
   transform: scale(1.08);
   background-color: #f2f2f2;
@@ -162,13 +143,11 @@ main {
   box-shadow: 0 0 50px rgba(132, 0, 255, 0.7);
 }
 
-
 .image-container img {
   max-width: 500px;
   border-radius: 15px;
   box-shadow: 0 0 100px rgba(132, 0, 255, 0.7);
 }
-
 
 h2 {
   font-family: 'Kanit', sans-serif;
@@ -177,13 +156,11 @@ h2 {
   justify-content: space-between;
 }
 
-
 .best-sellers {
   margin-top: 50px;
   padding: 20px;
   color: white;
 }
-
 
 .best-sellers h2 {
   font-family: 'Kanit', sans-serif;
@@ -192,14 +169,12 @@ h2 {
   margin-bottom: 20px;
 }
 
-
 .product-grid {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
 }
-
 
 .product-card {
   background-color: #111;
@@ -210,12 +185,10 @@ h2 {
   transition: transform 0.3s ease;
 }
 
-
 .product-card:hover {
   transform: scale(1.08);
   box-shadow: 0 0 30px rgba(132, 0, 255, 0.7);
 }
-
 
 .product-card img {
   width: 100%;
@@ -223,19 +196,16 @@ h2 {
   margin-bottom: 10px;
 }
 
-
 .stock {
   font-size: 12px;
   color: #ad32ff;
   margin-bottom: 4px;
 }
 
-
 .price {
   font-weight: bold;
   margin: 6px 0;
 }
-
 
 .btn-buy {
   background-color: #961eff;
@@ -248,13 +218,7 @@ h2 {
   transition: background-color 0.3s ease;
 }
 
-
 .btn-buy:hover {
   transform: scale(1.08);
   background-color: #a321ff;
 }
-
-
-
-
-
